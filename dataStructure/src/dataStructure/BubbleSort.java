@@ -1,8 +1,10 @@
+package dataStructure;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class bubble_Sort {
+public class BubbleSort {
 
     public static void main(String[] args) throws IOException {
 
@@ -13,7 +15,8 @@ public class bubble_Sort {
         int[] arr = new int[n]; // 입력한 크기만큼의 배열 할당
 
         for(int i = 0; i < n; i++) {
-            arr[i] = Integer.parseInt(br.readLine()); // 5 2 6 3 1 4
+            //arr[i] = Integer.parseInt(br.readLine()); // 5 2 6 3 1 4
+            arr[i] = (int)(Math.random() * 10001);
         }
 
         // 버블 정렬은 왼쪽값과 오른쪽값을 비교해 서로 swap하는 형식의 정렬
@@ -22,7 +25,7 @@ public class bubble_Sort {
         // 위와 같은 방식의 버블정렬 시간복잡도는 n개의 배열을 n-1의 아이템을 비교한다 = 배열의 크기가 6이면 5번 비교해야함
         // 이 비교를 n벉하고 또 최악의 경우 모든 아이템을 스왑해야함
         // 따라서 버블정렬의 시간복잡도는 O(n^2)
-
+        long start = System.currentTimeMillis();
         for(int i = 0; i < n; i++) { // arr[0] ~ 5의 배열값 접근
             for(int j = 0; j < n - 1 - i; j++) { // 버블정렬을 하면 한사이클을 돌때마다 맨뒤는 무조건 가장 큰값이 들어가기에 마지막은 비교를 할필요가 없다
                 if(arr[j] > arr[j+1]) {
@@ -32,10 +35,12 @@ public class bubble_Sort {
                 }
             }
         }
+        long end = System.currentTimeMillis();
+
 
         for(int arrs : arr) {
             System.out.println(arrs);
         }
-
+        System.out.println("실행시간 : " + (end - start)/1000.0);
     }
 }
