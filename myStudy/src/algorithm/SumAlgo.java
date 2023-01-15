@@ -1,10 +1,10 @@
-package Algorithm;
+package algorithm;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class sumAlgo {
+public class SumAlgo {
     public static void main(String[] args) throws IOException {
         // 등차수열의 누적합 값 구해보기
         // (1이상 1이하의 모든 자연수의 합) + (1이상 2이하의 모든 자연수의 합) + ... +(1이상 N이하의 모든 자연수의 합)
