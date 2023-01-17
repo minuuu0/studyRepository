@@ -1,6 +1,6 @@
 # algorithmStudy
 ### 23년도 공부 소스코드 커밋
-| 문제경로 | 공부주제 | 내용 | 날짜 | 정리 링크|
+| 소스코드 | 공부주제 | 내용 | 날짜 | 정리 링크|
 | --- | --- | --- | --- | --- |
 | [버블정렬](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/dataStructure/BubbleSort.java) | 자료구조 | 버블정렬| 2022-01-10|[정리글]
 | [선택정렬](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/dataStructure/SellectionSort.java) | 자료구조 | 선택정렬| 2022-01-10|[정리글]
