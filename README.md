@@ -16,3 +16,4 @@
 | [점 사이의 거리](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter2/Q2F.java) | 알고리즘 | 점 사이 거리구하기| 2022-01-16| [점 사이 거리구하기](https://velog.io/@rlamw2000/Java-%EB%91%90-%EC%A0%90-%EC%82%AC%EC%9D%B4%EC%9D%98-%EA%B1%B0%EB%A6%AC)
 | [버블 정렬](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter2/Q2G.java) | 알고리즘 | 버블 정렬| 2022-01-16|
 | [픽셀 수 세기](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter2/Q2H.java) | 알고리즘 | 픽셀 수 세기| 2022-01-17| [픽셀 수 세기](https://velog.io/@rlamw2000/Java-%ED%94%BD%EC%85%80-%EC%88%98-%EC%84%B8%EA%B8%B0)
+|[백준4153](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/Bj4153.java)| 알고리즘 | 피타고라스 | 2022-01-18 |[미작성]
