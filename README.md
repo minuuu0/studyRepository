@@ -17,3 +17,4 @@
 | [버블 정렬](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter2/Q2G.java) | 알고리즘 | 버블 정렬| 2022-01-16|
 | [픽셀 수 세기](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter2/Q2H.java) | 알고리즘 | 픽셀 수 세기| 2022-01-17| [픽셀 수 세기](https://velog.io/@rlamw2000/Java-%ED%94%BD%EC%85%80-%EC%88%98-%EC%84%B8%EA%B8%B0)
 |[백준4153](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/Bj4153.java)| 알고리즘 | 피타고라스 | 2022-01-18 |[미작성]
+| [[소스코드] 연속 순열 검증](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter2/Q2H.java) | 알고리즘 | 연속 순열 검증| 2022-01-19| [[velog] 연속 순열 검증](https://velog.io/@rlamw2000/Java-%ED%94%BD%EC%85%80-%EC%88%98-%EC%84%B8%EA%B8%B0)
