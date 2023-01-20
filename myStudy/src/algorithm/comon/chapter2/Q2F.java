@@ -48,6 +48,7 @@ class Point2D{
         this.y = y;
     }
     // 거리의 제곱을 구하는 함수
+    // test11323
     public int getSquaredDistanceTo(Point2D target){
         int deltaX = this.x - target.x;
         int deltaY = this.y - target.y;

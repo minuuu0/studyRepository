@@ -1,4 +1,4 @@
-package algorithm.comon;
+package algorithm.comon.chapter2;
 
 public class Q2D {
     // 문자열의 사전 순 대소관계 비교를 위한 함수 compare(s1, s2)만들기 -> s1이 s2보다 빠르면 음수, 동일하면 0, 느리다면 양수 반환

@@ -1,4 +1,4 @@
-package algorithm.comon;
+package algorithm.comon.chapter2;
 
 import java.util.Scanner;
 
