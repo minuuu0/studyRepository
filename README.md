@@ -20,4 +20,4 @@
 |16| [[소스코드] 연속 순열 검증](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter2/Q2I.java) | 알고리즘 | 연속 순열 검증| 2022-01-19| [[velog] 연속 순열 검증](https://velog.io/@rlamw2000/Java-%ED%94%BD%EC%85%80-%EC%88%98-%EC%84%B8%EA%B8%B0)
 |17| [[소스코드] 일정 범위 순회](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter2/Q2J.java) | 알고리즘 | 슬라이딩 윈도우 적용| 2022-01-20| [[velog] sliding Window](https://velog.io/@rlamw2000/Java-%EC%9E%85%EB%A0%A5-%EC%88%98%EB%A7%8C%ED%81%BC-%EC%88%9C%ED%9A%8C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98sliding-window)
 |18| [[소스코드] 팩토리얼](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/reculsion/Bj10872.java) | 알고리즘 | 재귀 함수| 2022-01-21|[미작성]
-|19| [[소스코드] 피보나치](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/reculsion/Bj10872.java) | 알고리즘 | 재귀 함수| 2022-01-22|[미작성]
+|19| [[소스코드] 피보나치](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/reculsion/Bj10870.java) | 알고리즘 | 재귀 함수| 2022-01-22|[미작성]
