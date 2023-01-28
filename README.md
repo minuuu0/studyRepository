@@ -23,3 +23,4 @@
 |19| [[소스코드] 피보나치](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/reculsion/Bj10870.java) | 알고리즘 | 재귀 함수| 2022-01-22|[미작성]
 |20| [[소스코드] 최빈값](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter3/Q3A.java) | 알고리즘 | 최고 빈도 구하기| 2022-01-23|[[Velog] 최빈값 알고리즘](https://velog.io/@rlamw2000/Java-%EC%B5%9C%EB%B9%88%EA%B0%92-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
 |21| [[소스코드] 페인트](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter3/Q3B.java) | 알고리즘 | 페인트 알고리즘| 2022-01-24|[[Velog] 페인트 알고리즘](https://velog.io/@rlamw2000/Java-%ED%8E%98%EC%9D%B8%ED%8A%B8-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+|25| [[소스코드] 이진 검색](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/search/BinarySearch.java)| 알고리즘 | 이진검색 알고리즘| 2022-01-28|[미작성]
