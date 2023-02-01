@@ -1,4 +1,11 @@
-# algorithmStudy
+# 알고리즘 1일 1커밋
+### 23년 2월 커밋 내용
+| 순번 | 소스코드 | 공부주제 | 날짜 | 정리 링크|
+| --- | --- | --- | --- | --- |
+|1| [[소스코드] 조합->탐색으로 변형](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter3/Q3G.java) | 자료구조 | 2022-02-01(수)|[[velog]조합 -> 탐색](https://velog.io/@rlamw2000/Java-%EC%A1%B0%ED%95%A9-%ED%83%90%EC%83%89-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+<br>
+
+
 ### 23년 1월 커밋 내용
 | 순번 | 소스코드 | 공부주제 | 날짜 | 정리 링크|
 | --- | --- | --- | --- | --- |
@@ -29,3 +36,4 @@
 |25| [[소스코드] 이진 검색](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/search/BinarySearch.java)| 알고리즘 | 2022-01-28 (토)|[미작성]
 |26| [[소스코드] 배열 중복 제거 ver2](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter3/Q3C.java) | 알고리즘 | 2022-01-29 (일)|[[Velog] 배열 중복 제거 ver2](https://velog.io/@rlamw2000/Java-%EB%B0%B0%EC%97%B4-%EC%A4%91%EB%B3%B5-%EC%A0%9C%EA%B1%B0)
 |27| [[소스코드] 부분합 알고리즘](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter3/Q3F.java) | 알고리즘 | 2022-01-30 (월)|[[Velog] 부분합 알고리즘](https://velog.io/@rlamw2000/Java-%EB%B6%80%EB%B6%84%ED%95%A9-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+|28| [[소스코드] 슬라이딩 윈도우(2)](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter3/Q3G.java) | 알고리즘 | 2022-01-31 (화)|[[Velog] 슬라이딩 윈도우(2)](https://velog.io/@rlamw2000/Java-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%94%A9-%EC%9C%88%EB%8F%84%EC%9A%B0-2)
