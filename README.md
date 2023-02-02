@@ -2,7 +2,8 @@
 ### 23년 2월 커밋 내용
 | 순번 | 소스코드 | 공부주제 | 날짜 | 정리 링크|
 | --- | --- | --- | --- | --- |
-|1| [[소스코드] 조합->탐색으로 변형](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter3/Q3H.java) | 자료구조 | 2022-02-01(수)|[[velog]조합 -> 탐색](https://velog.io/@rlamw2000/Java-%EC%A1%B0%ED%95%A9-%ED%83%90%EC%83%89-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+|1| [[소스코드] 조합->탐색으로 변형](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter3/Q3H.java) | 알고리즘 | 2022-02-01 (수)|[[velog]조합 -> 탐색](https://velog.io/@rlamw2000/Java-%EC%A1%B0%ED%95%A9-%ED%83%90%EC%83%89-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+|2| [[소스코드] 조합 + 탐색 알고리즘](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter3/Q3I.java) | 알고리즘 | 2022-02-02 (목)|[[velog]조합 + 탐색](https://velog.io/@rlamw2000/Java-%EC%84%B8-%EC%B9%B4%EB%93%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
 <br>
 
 
