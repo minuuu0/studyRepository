@@ -7,6 +7,7 @@
 |3| [[소스코드] 네 카드 알고리즘](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter3/Q3J.java) | 알고리즘 | 2022-02-03 (금)|[[velog]네 카드 알고리즘](https://velog.io/@rlamw2000/Java-%EB%84%A4-%EC%B9%B4%EB%93%9C-PS)
 |4| [[소스코드] 수학 알고리즘](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter3/Q3J.java) | 알고리즘 | 2022-02-04 (토)|[[velog]네 카드 알고리즘](https://velog.io/@rlamw2000/Java-%EB%84%A4-%EC%B9%B4%EB%93%9C-PS)
 |5| [[소스코드] 수학 알고리즘(2)](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter3/Q3J.java) | 알고리즘 | 2022-02-05 (일)|[[velog]네 카드 알고리즘(2)](https://velog.io/@rlamw2000/Java-%EB%84%A4-%EC%B9%B4%EB%93%9C-PS)
+|6| [[소스코드] 수학 알고리즘(3)](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter3/Q3J.java) | 알고리즘 | 2022-02-05 (월)|[[velog]네 카드 알고리즘(3)](https://velog.io/@rlamw2000/Java-%EB%84%A4-%EC%B9%B4%EB%93%9C-PS)
 <br>
 
 
