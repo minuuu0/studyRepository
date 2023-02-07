@@ -4,10 +4,10 @@
 | --- | --- | --- | --- | --- |
 |1| [[소스코드] 조합->탐색으로 변형](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter3/Q3H.java) | 알고리즘 | 2022-02-01 (수)|[[velog]조합 -> 탐색](https://velog.io/@rlamw2000/Java-%EC%A1%B0%ED%95%A9-%ED%83%90%EC%83%89-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
 |2| [[소스코드] 조합 + 탐색 알고리즘](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter3/Q3I.java) | 알고리즘 | 2022-02-02 (목)|[[velog]조합 + 탐색](https://velog.io/@rlamw2000/Java-%EC%84%B8-%EC%B9%B4%EB%93%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
-|3| [[소스코드] 네 카드 알고리즘](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter3/Q3J.java) | 알고리즘 | 2022-02-03 (금)|[[velog]네 카드 알고리즘](https://velog.io/@rlamw2000/Java-%EB%84%A4-%EC%B9%B4%EB%93%9C-PS)
-|4| [[소스코드] 수학 알고리즘](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter3/Q3J.java) | 알고리즘 | 2022-02-04 (토)|[[velog]네 카드 알고리즘](https://velog.io/@rlamw2000/Java-%EB%84%A4-%EC%B9%B4%EB%93%9C-PS)
-|5| [[소스코드] 수학 알고리즘(2)](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter3/Q3J.java) | 알고리즘 | 2022-02-05 (일)|[[velog]네 카드 알고리즘(2)](https://velog.io/@rlamw2000/Java-%EB%84%A4-%EC%B9%B4%EB%93%9C-PS)
-|6| [[소스코드] 수학 알고리즘(3)](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter3/Q3J.java) | 알고리즘 | 2022-02-05 (월)|[[velog]네 카드 알고리즘(3)](https://velog.io/@rlamw2000/Java-%EB%84%A4-%EC%B9%B4%EB%93%9C-PS)
+|3| [[소스코드]스도쿠 보드](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4B.java) | 알고리즘 | 2022-02-03 (금)|[[velog]스도쿠 보드](https://velog.io/@rlamw2000/Java-스도쿠-보드-알고리즘)
+|4| [[소스코드] 선형탐색](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/datastructure/search/LinearSearch.java) | 알고리즘 | 2022-02-04 (토)|[미작성]
+|5| [[소스코드] 보초법 선형 검색](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/datastructure/search/LinearSearch2.java) | 자료구조 | 2022-02-05 (일)|[미작성]
+|6| [[소스코드] probing 알고리즘](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4B.java) | 알고리즘 | 2022-02-06 (월)|[[velog]probing 알고리즘](https://velog.io/@rlamw2000/Java-Probing)
 <br>
 
 
