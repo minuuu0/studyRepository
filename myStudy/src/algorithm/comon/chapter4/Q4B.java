@@ -16,7 +16,7 @@ public class Q4B {
                 index = index + 1 % n; // 0으로 돌아가기위해 나머지 연산
             }
             tickets.add(index); // 티켓번호값 저장
-            used[index] = true; // 해당 번호는 이제 없는 행운권
+            used[index] = true; // 해당 번호는 이제 없는 행운권으로 변경
         }
         return tickets;
     }
