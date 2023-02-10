@@ -16,7 +16,7 @@ public class Queue {
     private int rear; // 맨 뒤의 요소 커서
     private int num; // 현재 데이터 개수
 
-    public int Queue(int maxlen){ // 생성자
+    public Queue(int maxlen){ // 생성자
         num = front = rear = 0; // 초기화
         capacity = maxlen;
         que = new int [capacity]; // 생성자로 큐 배열 생성
