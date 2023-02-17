@@ -13,7 +13,8 @@
 |9| [[소스코드] 유클리드 호제법](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/datastructure/recursive/Euclidean.java) | 자료구조 | 2022-02-09 (목)| [미작성]
 |10| [[소스코드] 하노이 탑](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/datastructure/recursive/Hanoi.java) | 자료구조 | 2022-02-10 (금)| [미작성]
 |11| [[소스코드] 8-Queen](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/datastructure/recursive/Queen8.java) | 자료구조 | 2022-02-11 (토)| [미작성]
-|12| [[소스코드] 최대공약수와 최소공배수](https://github.com/Tiel0043/studyRepository/commit/4698fbdb3ccc695de21d1959d26589984ce2cb76) | 알고리즘 | 2022-02-13 (월)| [최대공약수와 최소공배수](https://velog.io/@rlamw2000/Java-%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80-%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98)
+|12| [[소스코드] 최대공약수와 최소공배수](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4C.java)| 알고리즘 | 2022-02-13 (월)| [최대공약수와 최소공배수](https://velog.io/@rlamw2000/Java-%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80-%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98)
+|12| [[소스코드] 수열과 순환](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4C.java)| 알고리즘 | 2022-02-13 (화)| [수열과 순환](https://velog.io/@rlamw2000/Java-%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80-%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98)
 <br>
 
 
