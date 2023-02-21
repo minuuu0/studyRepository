@@ -13,8 +13,10 @@
 |9| [[소스코드] 유클리드 호제법](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/datastructure/recursive/Euclidean.java) | 자료구조 | 2022-02-09 (목)| [미작성]
 |10| [[소스코드] 하노이 탑](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/datastructure/recursive/Hanoi.java) | 자료구조 | 2022-02-10 (금)| [미작성]
 |11| [[소스코드] 8-Queen](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/datastructure/recursive/Queen8.java) | 자료구조 | 2022-02-11 (토)| [미작성]
-|12| [[소스코드] 최대공약수와 최소공배수](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4C.java)| 알고리즘 | 2022-02-13 (월)| [최대공약수와 최소공배수](https://velog.io/@rlamw2000/Java-%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80-%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98)
-|12| [[소스코드] 수열과 순환](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4C.java)| 알고리즘 | 2022-02-13 (화)| [수열과 순환](https://velog.io/@rlamw2000/Java-%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80-%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98)
+|12| [[소스코드] 최대공약수와 최소공배수](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4C.java)| 알고리즘 | 2022-02-13 (월)| [[velog]최대공약수와 최소공배수](https://velog.io/@rlamw2000/Java-%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80-%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98)
+|13| [[소스코드] 수열과 순환](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4D.java)| 알고리즘 | 2022-02-14 (화)| [[velog]수열과 순환](https://velog.io/@rlamw2000/Java-%EC%88%98%EC%97%B4%EC%9D%98-%EC%88%9C%ED%99%98)
+|14| [[소스코드] 소인수 분해](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4E.java)| 알고리즘 | 2022-02-15 (수)| [[velog]소인수분해](https://velog.io/@rlamw2000/Java-%EC%86%8C%EC%9D%B8%EC%88%98%EB%B6%84%ED%95%B4)
+|15| [[소스코드] 소수 세기](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4F.java)| 알고리즘 | 2022-02-16(목)| [[velog]소수 세기](https://velog.io/@rlamw2000/Java-%EC%86%8C%EC%88%98-%EC%84%B8%EA%B8%B0)
 <br>
 
 
