@@ -59,4 +59,8 @@ class Sieve{
             }
         }
     }
+
+    public boolean isPrimeNumber(int num){
+        return this.isPrime[num];
+    }
 }
