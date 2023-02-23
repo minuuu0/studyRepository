@@ -1,5 +1,10 @@
 # 알고리즘 1일 1커밋
 ### 23년 2월 커밋 내용
+
+복붙용<br>
+|16| [[소스코드] 제목]()| 알고리즘 | 2022-02-17 (금)| [[velog]제목]()
+<br>
+
 | 순번 | 소스코드 | 공부주제 | 날짜 | 정리 링크|
 | --- | --- | --- | --- | --- |
 |1| [[소스코드] 조합->탐색으로 변형](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter3/Q3H.java) | 알고리즘 | 2022-02-01 (수)|[[velog]조합 -> 탐색](https://velog.io/@rlamw2000/Java-%EC%A1%B0%ED%95%A9-%ED%83%90%EC%83%89-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
@@ -16,7 +21,12 @@
 |12| [[소스코드] 최대공약수와 최소공배수](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4C.java)| 알고리즘 | 2022-02-13 (월)| [[velog]최대공약수와 최소공배수](https://velog.io/@rlamw2000/Java-%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80-%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98)
 |13| [[소스코드] 수열과 순환](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4D.java)| 알고리즘 | 2022-02-14 (화)| [[velog]수열과 순환](https://velog.io/@rlamw2000/Java-%EC%88%98%EC%97%B4%EC%9D%98-%EC%88%9C%ED%99%98)
 |14| [[소스코드] 소인수 분해](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4E.java)| 알고리즘 | 2022-02-15 (수)| [[velog]소인수분해](https://velog.io/@rlamw2000/Java-%EC%86%8C%EC%9D%B8%EC%88%98%EB%B6%84%ED%95%B4)
-|15| [[소스코드] 소수 세기](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4F.java)| 알고리즘 | 2022-02-16(목)| [[velog]소수 세기](https://velog.io/@rlamw2000/Java-%EC%86%8C%EC%88%98-%EC%84%B8%EA%B8%B0)
+|15| [[소스코드] 소수 세기](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4F.java)| 알고리즘 | 2022-02-16 (목)| [[velog]소수 세기](https://velog.io/@rlamw2000/Java-%EC%86%8C%EC%88%98-%EC%84%B8%EA%B8%B0)
+|16| [[소스코드] 배열흔들기](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4G.java)| 알고리즘 | 2022-02-17 (금)| [[velog]배열 흔들기](https://velog.io/@rlamw2000/Java-배열-흔들기)
+|17| [[소스코드] 백준 클래스 1](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/class1)| 알고리즘 | 2022-02-18 (토)| [미작성]
+|18| [[소스코드] 백준 클래스2](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/class2)| 알고리즘 | 2022-02-19 (일)| [미작성]
+|19| [[소스코드] 카잉달력](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4H.java)| 알고리즘 | 2022-02-20 (월)| [[velog]카잉달력](https://velog.io/@rlamw2000/Java-카잉달력)
+|20| [[소스코드] 골드바흐의 추측](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4I.java)| 알고리즘 | 2022-02-21 (화)| [[velog]골드바흐의 추측](https://velog.io/@rlamw2000/%EA%B3%A8%EB%93%9C%EB%B0%94%ED%9D%90%EC%9D%98-%EC%B6%94%EC%B8%A1)
 <br>
 
 
