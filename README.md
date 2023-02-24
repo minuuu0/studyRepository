@@ -28,6 +28,8 @@
 |19| [[소스코드] 카잉달력](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4H.java)| 알고리즘 | 2022-02-20 (월)| [[velog]카잉달력](https://velog.io/@rlamw2000/Java-카잉달력)
 |20| [[소스코드] 골드바흐의 추측](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4I.java)| 알고리즘 | 2022-02-21 (화)| [[velog]골드바흐의 추측](https://velog.io/@rlamw2000/%EA%B3%A8%EB%93%9C%EB%B0%94%ED%9D%90%EC%9D%98-%EC%B6%94%EC%B8%A1)
 |21| [[소스코드] 공약수게임](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4J.java)| 알고리즘 | 2022-02-22 (수)| [[velog]공약수게임](https://velog.io/@rlamw2000/Java-공약수-게임)
+|22| [[소스코드] 괄호문자열](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter5/Q5A.java)| 알고리즘 | 2022-02-23 (목)| [[velog]괄호문자열](https://velog.io/@rlamw2000/Java-괄호-문자열)
+|23| [[소스코드] 탑](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter5/Q5B.java)| 알고리즘 | 2022-02-24 (금)| [[velog]탑](https://velog.io/@rlamw2000/Java-탑)
 
 <br>
 
