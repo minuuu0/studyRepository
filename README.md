@@ -30,6 +30,7 @@
 |21| [[소스코드] 공약수게임](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter4/Q4J.java)| 알고리즘 | 2022-02-22 (수)| [[velog]공약수게임](https://velog.io/@rlamw2000/Java-공약수-게임)
 |22| [[소스코드] 괄호문자열](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter5/Q5A.java)| 알고리즘 | 2022-02-23 (목)| [[velog]괄호문자열](https://velog.io/@rlamw2000/Java-괄호-문자열)
 |23| [[소스코드] 탑](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter5/Q5B.java)| 알고리즘 | 2022-02-24 (금)| [[velog]탑](https://velog.io/@rlamw2000/Java-탑)
+|23| [[소스코드] 백준 클래스1](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/class1)| 알고리즘 | 2022-02-25 (토)| [미작성]
 
 <br>
 
