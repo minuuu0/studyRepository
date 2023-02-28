@@ -32,6 +32,7 @@
 |23| [[소스코드] 탑](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter5/Q5B.java)| 알고리즘 | 2022-02-24 (금)| [[velog]탑](https://velog.io/@rlamw2000/Java-탑)
 |24| [[소스코드] 백준 클래스1](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/class1)| 알고리즘 | 2022-02-25 (토)| [미작성]
 |25| [[소스코드] 백준 클래스2](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/class2)| 알고리즘 | 2022-02-26 (일)| [미작성]
+|26| [[소스코드] 히스토그램](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter5/Q5C.java)| 알고리즘 | 2022-02-27 (월)| [[velog]히스토그램](https://velog.io/@rlamw2000/Java-%ED%9E%88%EC%8A%A4%ED%86%A0%EA%B7%B8%EB%9E%A8)
 <br>
 
 
