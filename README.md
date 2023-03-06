@@ -1,9 +1,17 @@
 # 알고리즘 1일 1커밋
-### 23년 2월 커밋 내용
-
 복붙용<br>
 |16| [[소스코드] 제목]()| 알고리즘 | 2022-02-17 (금)| [[velog]제목]()
 <br>
+### 23년 3월 커밋 내용
+| 순번 | 소스코드 | 공부주제 | 날짜 | 정리 링크|
+| --- | --- | --- | --- | --- |
+|1| [[소스코드] 폭탄 제거](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter5/Q5E.java)| 알고리즘 | 2022-03-01 (수)| [[velog]폭탄 제거](https://velog.io/@rlamw2000/Java-폭탄-제거)
+|2| [[소스코드] 폭탄 제거 순서정하기](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter5/Q5F.java)| 알고리즘 | 2022-03-02 (목)| [[velog]폭탄 제거 순서정하기](https://velog.io/@rlamw2000/Java-폭탄제거-순서정하기)
+|3| [[소스코드] 불안정 지역](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter5/Q5G.java)| 알고리즘 | 2022-03-03 (금)| [[velog]불안정 지역](https://velog.io/@rlamw2000/Java-불안정-지역)
+|4| [[소스코드] 백준 2231(클래스2)](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/class2)| 알고리즘 | 2022-03-04 (토)| [미작성]
+|5| [[소스코드] 백준2781(클래스2)](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/class2/Bj2798.java)| 알고리즘 | 2022-03-05 (일)| [미작성]
+|6| [[소스코드] 중복제거](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter5/Q5H.java)| 알고리즘 | 2022-03-06 (월)| [미작성]
+### 23년 2월 커밋 내용
 
 | 순번 | 소스코드 | 공부주제 | 날짜 | 정리 링크|
 | --- | --- | --- | --- | --- |
@@ -33,6 +41,7 @@
 |24| [[소스코드] 백준 클래스1](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/class1)| 알고리즘 | 2022-02-25 (토)| [미작성]
 |25| [[소스코드] 백준 클래스2](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/class2)| 알고리즘 | 2022-02-26 (일)| [미작성]
 |26| [[소스코드] 히스토그램](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter5/Q5C.java)| 알고리즘 | 2022-02-27 (월)| [[velog]히스토그램](https://velog.io/@rlamw2000/Java-%ED%9E%88%EC%8A%A4%ED%86%A0%EA%B7%B8%EB%9E%A8)
+|26| [[소스코드] 조세퍼스 문제](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter5/Q5D.java)| 알고리즘 | 2022-02-28 (화)| [[velog]조세퍼스 문제](https://velog.io/@rlamw2000/Java-조세퍼스-문제)
 <br>
 
 
