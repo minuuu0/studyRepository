@@ -13,6 +13,7 @@
 |6| [[소스코드] 중복제거](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter5/Q5H.java)| 알고리즘 | 2022-03-06 (월)| [미작성]
 |7| [[소스코드] 정사각형](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter5/Q5I.java)| 알고리즘 | 2022-03-07 (화)| [[velog]정사각형](https://velog.io/@rlamw2000/Java-%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95)
 |8| [[소스코드] 빈도수 세기](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter5/Q5J.java)| 알고리즘 | 2022-03-08 (수)| [[velog]빈도수 세기](https://velog.io/@rlamw2000/Java-%EB%B9%88%EB%8F%84%EC%88%98-%EC%84%B8%EA%B8%B0)
+|9| [[소스코드] 시장 추천하기](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter5/Q5K.java)| 알고리즘 | 2022-03-09 (목)| [[velog]시장 추천하기](https://velog.io/@rlamw2000/Java-%EC%8B%9C%EC%9E%A5-%EC%B6%94%EC%B2%9C%ED%95%98%EA%B8%B0)
 ### 23년 2월 커밋 내용
 
 | 순번 | 소스코드 | 공부주제 | 날짜 | 정리 링크|
