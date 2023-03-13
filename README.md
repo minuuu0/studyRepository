@@ -14,6 +14,10 @@
 |7| [[소스코드] 정사각형](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter5/Q5I.java)| 알고리즘 | 2022-03-07 (화)| [[velog]정사각형](https://velog.io/@rlamw2000/Java-%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95)
 |8| [[소스코드] 빈도수 세기](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter5/Q5J.java)| 알고리즘 | 2022-03-08 (수)| [[velog]빈도수 세기](https://velog.io/@rlamw2000/Java-%EB%B9%88%EB%8F%84%EC%88%98-%EC%84%B8%EA%B8%B0)
 |9| [[소스코드] 시장 추천하기](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/comon/chapter5/Q5K.java)| 알고리즘 | 2022-03-09 (목)| [[velog]시장 추천하기](https://velog.io/@rlamw2000/Java-%EC%8B%9C%EC%9E%A5-%EC%B6%94%EC%B2%9C%ED%95%98%EA%B8%B0)
+|10| [[소스코드] 1차원 배열 2문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/array)| 알고리즘 | 2022-03-10 (금)| [미작성]
+|11| [[소스코드]단계별 1차원 배열 1문제](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/step/array/Bj10810.java)| 알고리즘 | 2022-03-11 (토)| [미작성]
+|12| [[소스코드]단계별 1차원 배열 1문제](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/step/array/Bj10813.java)| 알고리즘 | 2022-03-12 (일)| [미작성]
+|13| [[소스코드]단계별 1차원 배열 4문제](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/step/array)| 알고리즘 | 2022-03-13 (월)| [미작성]
 ### 23년 2월 커밋 내용
 
 | 순번 | 소스코드 | 공부주제 | 날짜 | 정리 링크|
