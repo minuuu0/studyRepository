@@ -3,7 +3,7 @@ package algorithm.baekjoon.step.array2;
 import java.util.Scanner;
 
 public class Bj2563 {
-    // 색종이의 넓이를 구하라 -> 겹치는 것 고려
+    // 색종이의 넓이를 구하라 -> 겹치는 것 고려 필요
     // 100 x 100 크기의 빈도수 테이블을 만들어 빈도수를 체크해서 1이상이라면 카운팅을 해주자
     // 왼쪽 아래의 정사각형 점이 주어지는데 이는 정사각형의 특성을 이용하면 쉽게 구할 수 있다
     static final Scanner sc = new Scanner(System.in);
