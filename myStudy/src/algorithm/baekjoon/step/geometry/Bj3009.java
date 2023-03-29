@@ -3,7 +3,7 @@ package algorithm.baekjoon.step.geometry;
 import java.util.Scanner;
 
 public class Bj3009 {
-    // 세 점이 주어졌을 때, 축에 평행한 직사각형 만들기 위해 필요한 네번째 점 찾기
+    // 세 점이 주어졌을 때, 축에 평행한 직사각형 만들기 위해 필요한 네번째 점 찾는 문제
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

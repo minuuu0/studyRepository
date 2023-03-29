@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Bj1085 {
     public static void main(String[] args) {
         // x, y에 있다 왼쪽 아래 꼭지점 : 0, 0 / 오른쪽 위 꼭지점 : w, h
-        // 직사각형의 경계선까지 가는 최솟값 구하기
+        // 직사각형의 경계선까지 가는 최솟값 구하는 문제
 
         Scanner sc = new Scanner(System.in);
 
