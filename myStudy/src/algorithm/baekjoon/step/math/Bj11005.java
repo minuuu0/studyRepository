@@ -19,7 +19,7 @@ public class Bj11005 {
 
         while (!st.isEmpty()){
             int num = st.pop();
-            if(num > 10){ // 만약 스택값이 10이상이면 알파벳으로 출력
+            if(num >= 10){ // 만약 스택값이 10이상이면 알파벳으로 출력
                 System.out.print((char)(num - 10 + 'A'));
             }else{
                 System.out.print(num);
