@@ -2,6 +2,17 @@
 복붙용<br>
 |16| [[소스코드] 제목]()| 알고리즘 | 2022-02-17 (금)| [[velog]제목]()
 <br>
+
+### 23년 4월 커밋 내용
+| 순번 | 소스코드 | 공부주제 | 날짜 | 정리 링크|
+| --- | --- | --- | --- | --- |
+|1| [[소스코드]백준 단계별 풀기(일반수학) 2문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/math)| 알고리즘 | 04-01 (토)| [미작성]
+|2| [[소스코드]백준 단계별 풀기(일반수학) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/math)| 알고리즘 | 04-02 (일)| [미작성]
+|3| [[소스코드]백준 단계별 풀기(일반수학) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/math)| 알고리즘 | 04-03 (월)| [미작성]
+|4| [[소스코드]백준 단계별 풀기(일반수학) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/math)| 알고리즘 | 04-05 (수)| [미작성]
+|5| [[소스코드]백준 단계별 풀기(일반수학) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/math)| 알고리즘 | 04-06 (목)| [미작성]
+
+
 ### 23년 3월 커밋 내용
 | 순번 | 소스코드 | 공부주제 | 날짜 | 정리 링크|
 | --- | --- | --- | --- | --- |
@@ -31,6 +42,12 @@
 |24| [[소스코드]백준 단계별 풀기(약수와 배수) 2문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/factor)| 알고리즘 | 03-24 (금)| [미작성]
 |25| [[소스코드]백준 단계별 풀기(약수와 배수) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/factor)| 알고리즘 | 03-25 (토)| [미작성]
 |26| [[소스코드]백준 단계별 풀기(약수와 배수) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/factor)| 알고리즘 | 03-26 (일)| [미작성]
+|27| [[소스코드]백준 단계별 풀기(약수와 배수) 1문제(완)](https://github.com/Tiel0043/studyRepository/commit/6cf5aafa32d1919fed31dd7682a388afd000d5c7)| 알고리즘 | 03-27 (월)| [미작성]
+|28| [[소스코드]백준 단계별 풀기(기하) 3문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/geometry)| 알고리즘 | 03-28 (화)| [미작성]
+|29| [[소스코드]백준 단계별 풀기(기하) 3문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/geometry)| 알고리즘 | 03-29 (수)| [미작성]
+|30| [[소스코드]백준 단계별 풀기(기하) 2문제(완)](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/geometry)| 알고리즘 | 03-30 (목)| [미작성]
+|31| [[소스코드]백준 단계별 풀기(시간복잡도) 6문제(완)](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/timecomplexity)| 알고리즘 | 03-30 (목)| [미작성]
+|32| [[소스코드]백준 단계별 풀기(일반수학) 2문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/math)| 알고리즘 | 03-31 (금)| [미작성]
 ### 23년 2월 커밋 내용
 
 | 순번 | 소스코드 | 공부주제 | 날짜 | 정리 링크|
