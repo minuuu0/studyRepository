@@ -1,6 +1,4 @@
-package algorithm.syu;
-
-import java.util.List;
+package algorithm.syu.linkedlist;
 
 // 데이터의 공간마다 다음 데이터의 주소를 가지고 있다.
 class ListNode{
@@ -156,7 +154,6 @@ public class LinkedList {
             tempNode = tempNode.link;
         }
         System.out.println();
-
     }
 
 }
