@@ -6,13 +6,29 @@
 ### 23년 4월 커밋 내용
 | 순번 | 소스코드 | 공부주제 | 날짜 | 정리 링크|
 | --- | --- | --- | --- | --- |
-|1| [[소스코드]백준 단계별 풀기(일반수학) 2문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/math)| 알고리즘 | 04-01 (토)| [미작성]
-|2| [[소스코드]백준 단계별 풀기(일반수학) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/math)| 알고리즘 | 04-02 (일)| [미작성]
-|3| [[소스코드]백준 단계별 풀기(일반수학) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/math)| 알고리즘 | 04-03 (월)| [미작성]
-|4| [[소스코드]백준 단계별 풀기(일반수학) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/math)| 알고리즘 | 04-05 (수)| [미작성]
-|5| [[소스코드]백준 단계별 풀기(일반수학) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/math)| 알고리즘 | 04-06 (목)| [미작성]
-
-
+|1| [[소스코드]백준 2720(일반수학) 2문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/math)| 알고리즘 | 04-01 (토)| [미작성]
+|2| [[소스코드]백준 2903(일반수학) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/math)| 알고리즘 | 04-02 (일)| [미작성]
+|3| [[소스코드]백준 2292(일반수학) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/math)| 알고리즘 | 04-03 (월)| [미작성]
+|4| [[소스코드]백준 1193(일반수학) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/math)| 알고리즘 | 04-05 (수)| [미작성]
+|5| [[소스코드]백준 2869(일반수학) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/math)| 알고리즘 | 04-06 (목)| [미작성]
+|6| [[소스코드]백준 10757(일반수학) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/math)| 알고리즘 | 04-07 (금)| [미작성]
+|7| [[소스코드]백준 2231, 2798(브루트포스) 2문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/bruteforce)| 알고리즘 | 04-08 (토)| [미작성]
+|8| [[소스코드]백준 19532(브루트포스) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/bruteforce)| 알고리즘 | 04-09 (일)| [미작성]
+|9| [[소스코드]백준 1018(브루트포스) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/bruteforce)| 알고리즘 | 04-10 (월)| [미작성]
+|10| [[소스코드]백준 1436(브루트포스) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/bruteforce)| 알고리즘 | 04-11 (화)| [미작성]
+|11| [[소스코드]백준 2839(브루트포스) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/bruteforce)| 알고리즘 | 04-12 (수)| [미작성]
+|12| [[소스코드]백준 2750(정렬) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/sort)| 알고리즘 | 04-13 (목)| [미작성]
+|13| [[소스코드]백준 2587(정렬) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/sort)| 알고리즘 | 04-14 (금)| [미작성]
+|14| [[소스코드]백준 25305(정렬) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/sort)| 알고리즘 | 04-15 (토)| [미작성]
+|15| [[소스코드]백준 2751(정렬) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/sort)| 알고리즘 | 04-16 (일)| [미작성]
+|16| [[소스코드]병합정렬](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/sort)| 알고리즘 | 04-17 (월)| [미작성]
+|17| [[소스코드]연결리스트](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/syu/linkedlist)| 알고리즘 | 04-18 (화)| [미작성]
+|18| [[소스코드]백준 10989(정렬) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/sort)| 알고리즘 | 04-19 (수)| [미작성]
+|19| [[소스코드]재귀 함수](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/syu/midterm/MidTerm.java)| 알고리즘 | 04-20 (목)| [미작성]
+|20| [[소스코드]중간고사 전 종합 풀이1](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/syu/midterm/Chap2.java)| 알고리즘 | 04-21 (금)| [미작성]
+|21| [[소스코드]중간고사 전 종합 풀이2](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/syu/midterm/Chap3.java)| 알고리즘 | 04-22 (토)| [미작성]
+|22| [[소스코드]백준 1427(정렬) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/sort)| 알고리즘 | 04-24 (월)| [미작성]
+|23| [[소스코드]백준 11650(정렬) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/sort)| 알고리즘 | 04-25 (화)| [미작성]
 ### 23년 3월 커밋 내용
 | 순번 | 소스코드 | 공부주제 | 날짜 | 정리 링크|
 | --- | --- | --- | --- | --- |
