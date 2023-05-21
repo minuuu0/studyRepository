@@ -3,6 +3,28 @@
 |16| [[소스코드] 제목]()| 알고리즘 | 2022-02-17 (금)| [[velog]제목]()
 <br>
 
+### 23년 5월 커밋 내용
+| 순번 | 소스코드 | 공부주제 | 날짜 |
+| --- | --- | --- | --- |
+|1| [[소스코드]백준 9093(스택)](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/foundation/datastructure/Bj9093.java)| 알고리즘 | 05-01 (월)|
+|2| [[소스코드]백준 9012(스택)](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/foundation/datastructure/Bj9012.java)| 알고리즘 | 05-02 (화)|
+|3| [[소스코드]백준 1874(스택)](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/foundation/datastructure/Bj1874.java)| 알고리즘 | 05-03 (수)|
+|4| [[소스코드]백준 1406(스택) 에디터](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/foundation/datastructure/Bj1406.java)| 알고리즘 | 05-04 (목)|
+|5| [[소스코드]큐 구현](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/foundation/datastructure/Queue.java)| 알고리즘 | 05-05 (금)|
+|6| [[소스코드]백준 10845(큐) 큐 활용](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/foundation/datastructure/Bj10845.java)| 알고리즘 | 05-07 (일)|
+|7| [[소스코드]백준 1158(큐) 조세퍼스 문제](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/foundation/datastructure/Bj1158.java)| 알고리즘 | 05-08 (월)|
+|8| [[소스코드]덱 구현](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/foundation/datastructure/Deque.java)| 알고리즘 | 05-09 (화)|
+|9| [[소스코드]백준 10866(덱) 덱 활용](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/foundation/datastructure/Bj10866.java)| 알고리즘 | 05-10 (수)|
+|10| [[소스코드]백준 17413(스택) 단어 뒤집기](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/foundation/datastructure/Bj17413.java)| 알고리즘 | 05-11 (목)|
+|11| [[소스코드]백준 10799(스택) 쇠막대기](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/foundation/datastructure/Bj10799.java)| 알고리즘 | 05-12 (금)|
+|12| [[소스코드]백준 17298(스택) 오큰수](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/foundation/datastructure/Bj17298.java)| 알고리즘 | 05-13 (토)|
+|13| [[소스코드]백준 17299(스택) 오등큰수](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/foundation/datastructure/Bj17299.java)| 알고리즘 | 05-14 (일)|
+|14| [[소스코드]백준 1935(스택) 후위표기식2](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/foundation/datastructure/Bj1935.java)| 알고리즘 | 05-15 (월)|
+|15| [[소스코드]백준 1918(스택) 후위표기식1](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/foundation/datastructure/Bj1918.java)| 알고리즘 | 05-16 (화)|
+|16| [[소스코드]백준 10808(배열) 알파벳 세기](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/foundation/datastructure/Bj10808.java)| 알고리즘 | 05-17 (수)|
+|17| [[소스코드]백준 10809(배열) 알파벳 찾기](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/foundation/datastructure/Bj10809.java)| 알고리즘 | 05-19 (금)|
+|18| [[소스코드]백준 10820(배열) 문자열 분석](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/foundation/datastructure/Bj10820.java)| 알고리즘 | 05-20 (토)|
+|19| [[소스코드]백준 2743(배열) 단어 길이 세기](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/foundation/datastructure/Bj2743.java)| 알고리즘 | 05-21 (일)|
 ### 23년 4월 커밋 내용
 | 순번 | 소스코드 | 공부주제 | 날짜 | 정리 링크|
 | --- | --- | --- | --- | --- |
@@ -29,6 +51,12 @@
 |21| [[소스코드]중간고사 전 종합 풀이2](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/syu/midterm/Chap3.java)| 알고리즘 | 04-22 (토)| [미작성]
 |22| [[소스코드]백준 1427(정렬) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/sort)| 알고리즘 | 04-24 (월)| [미작성]
 |23| [[소스코드]백준 11650(정렬) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/sort)| 알고리즘 | 04-25 (화)| [미작성]
+|24| [[소스코드]백준 11651(정렬) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/sort)| 알고리즘 | 04-26 (수)| [미작성]
+|25| [[소스코드]백준 1181(정렬) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/sort)| 알고리즘 | 04-27 (목)| [미작성]
+|26| [[소스코드]백준 10814(정렬) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/sort)| 알고리즘 | 04-28 (금)| [미작성]
+|27| [[소스코드]백준 18870(정렬) 1문제](https://github.com/Tiel0043/studyRepository/tree/main/myStudy/src/algorithm/baekjoon/step/sort)| 알고리즘 | 04-29 (토)| [미작성]
+|28| [[소스코드]백준 10828(스택)](https://github.com/Tiel0043/studyRepository/blob/main/myStudy/src/algorithm/baekjoon/foundation/datastructure/Stack.java)| 알고리즘 | 04-30 (일)| [미작성]
+
 ### 23년 3월 커밋 내용
 | 순번 | 소스코드 | 공부주제 | 날짜 | 정리 링크|
 | --- | --- | --- | --- | --- |
