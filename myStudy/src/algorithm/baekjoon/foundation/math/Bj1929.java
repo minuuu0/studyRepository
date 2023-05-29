@@ -15,7 +15,8 @@ public class Bj1929 {
         int M = Integer.parseInt(st.nextToken());
         int N = Integer.parseInt(st.nextToken());
 
-        boolean[] arr = new boolean[N + 1]; // 소수는 true로 바꿔준다. 0은 쓰지 않는다.
+        boolean[] arr = new boolean[N + 1]; // 소수가 아니면 true로 바꿔준다. 0은 쓰지 않는다.
+        arr[0] = arr[1] = true;
         // 에라토스테네스의 체 적용
         for(int i = 2; i <= Math.sqrt(arr.length); i++){ // <= 주의
             // 자기를 제외한 배수를 지우는데 그 전에 지웠다면 넘어간다.
