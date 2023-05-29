@@ -17,7 +17,7 @@ public class Bj1929 {
 
         boolean[] arr = new boolean[N + 1]; // 소수는 true로 바꿔준다. 0은 쓰지 않는다.
         // 에라토스테네스의 체 적용
-        for(int i = 2; i < Math.sqrt(arr.length); i++){ //
+        for(int i = 2; i <= Math.sqrt(arr.length); i++){ // <= 주의
             // 자기를 제외한 배수를 지우는데 그 전에 지웠다면 넘어간다.
             if(arr[i] == true){
                 continue;
@@ -29,7 +29,7 @@ public class Bj1929 {
         }
 
         for(int i = M; i <= N; i++){ // 소수 판별
-            if(arr[i] == false){ // 소수인 원소는
+            if(!arr[i]){ // 소수인 원소는
                 System.out.println(i);
             }
         }
