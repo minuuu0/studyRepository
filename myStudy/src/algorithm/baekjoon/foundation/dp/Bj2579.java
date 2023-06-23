@@ -10,7 +10,7 @@ public class Bj2579 {
     public static void main(String[] args) throws IOException {
 
         int t = Integer.parseInt(br.readLine()); // t = 계단의 개수 300이하 O(t ^ 3)까지 가능
-        int[] arr = new int[t + 1]; // 계단별 점수는 10000 이하의 자연수
+        int[] arr = new int[t + 1]; // 계단별 점수는 10000 이하 자연수
         int[] dp = new int[t + 1]; // 최대값 갱신 배열
 
         for(int i = 1; i <= t; i++){
