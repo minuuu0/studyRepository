@@ -16,16 +16,23 @@ public class Bj2225 {
         int n = Integer.parseInt(st.nextToken()); // 0 ~ n까지
         int k = Integer.parseInt(st.nextToken()); // 정수 k를 더해 그 합이 n인 수
 
-        long[][] dp = new long[n + 1][k + 1];
+        long[][] dp = new long[k + 1][n + 1];
 
         for(int i = 0; i < n + 1; i++){
-            dp[i][1] = 1;
+            dp[1][i] = 1;
         }
-        for(int i = 0; i < k + 1; i++){
-            dp[0][i] = 1;
-        }
-        System.out.println("hi");
 
+        for(int i = 0; i < k + 1; i++){
+            dp[i][0] = 1;
+        }
+
+        for (int i = 2; i < k + 1; i++){
+            for(int j = 1; j < n + 1; j++){
+                dp[i][j] = (dp[i][j - 1] + dp[i - 1][j]) % mod;
+            }
+        }
+
+        System.out.println(dp[k][n]);
 
     }
 
