@@ -1,4 +1,5 @@
-### 커밋 내용 작성 중지 -> TIL 작성 이전 https://www.notion.so/TIL-92fe05cd0f2443239fb85cf3e828eb0d?pvs=4
+### 커밋 내용 작성 중지
+-> TIL 작성 이전 https://www.notion.so/TIL-92fe05cd0f2443239fb85cf3e828eb0d?pvs=4
 
 ### 23년 5월 커밋 내용
 | 순번 | 소스코드 | 공부주제 | 날짜 |
