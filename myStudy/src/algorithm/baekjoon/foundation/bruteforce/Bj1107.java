@@ -16,9 +16,12 @@ public class Bj1107 {
         int m = Integer.parseInt(br.readLine());
         boolean[] breaks = new boolean[10];
 
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        for(int i = 0; i < m; i++){
-            breaks[Integer.parseInt(st.nextToken())] = true; // 고장난 버튼 true표시
+
+        if(m > 0){
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            for(int i = 0; i < m; i++){
+                breaks[Integer.parseInt(st.nextToken())] = true; // 고장난 버튼 true표시
+            }
         }
 
         int result = Math.abs(n - 100); // 위와 같이 설정하면 min값은 무조건 0이됨
