@@ -12,6 +12,7 @@ public class Bj7562 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static int i;
     static int[][] chessBoard;
+    static boolean[][] visited;
 
     public static void main(String[] args) throws IOException {
         int testCase = Integer.parseInt(br.readLine());
@@ -20,6 +21,7 @@ public class Bj7562 {
             i = Integer.parseInt(br.readLine()); // 체스판 한 변의 길이
             StringTokenizer st = new StringTokenizer(br.readLine()); // 나이트가 있는 현재 칸
             chessBoard = new int[i][i];
+            visited = new boolean[i][i];
 
             int x = Integer.parseInt(st.nextToken());
             int y = Integer.parseInt(st.nextToken());
@@ -36,32 +38,37 @@ public class Bj7562 {
 
     private static int bfs(int x, int y, int goalX, int goalY) {
         Queue<int[]> que = new LinkedList<>();
-        que.add(new int[]{x, y});
-
+        que.add(new int[]{x, y, 0});
+        visited[x][y] = true;
 
         int[] dx = {1, 1, 2, 2, -1, -1, -2, -2};
         int[] dy = {2, -2, 1, -1, 2, -2, 1, -1};
-        int count = 0;
+
 
         while (!que.isEmpty()) {
             int[] poll = que.poll();
             int nowX = poll[0];
             int nowY = poll[1];
+            int count = poll[2];
 
             if (nowX == goalX && nowY == goalY) {
                 return count;
             }
 
+
             for (int i = 0; i < 8; i++) {
                 int nextX = nowX + dx[i];
                 int nextY = nowY + dy[i];
 
-                if (isValid(nextX, nextY)) {
-                    que.add(new int[]{nextX, nextY});
+
+
+                if (isValid(nextX, nextY) && !visited[nextX][nextY]) {
+                    visited[nextX][nextY] = true;
+                    que.add(new int[]{nextX, nextY, count + 1});
                 }
             }
         }
-        return count;
+        return -1;
     }
 
     private static boolean isValid(int nextX, int nextY) {
