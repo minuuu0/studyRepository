@@ -1,18 +1,19 @@
-import java.util.*;
-import java.lang.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.LinkedList;
+import java.util.Queue;
 
-// The main method must be in a class named "Main".
-class Main {
+public class Main {
+    static int[] dx = {0, 1, -1, 0};
+    static int[] dy = {1, 0, 0, -1};
+    static char[][] board = new char[5][5];
 
-    static char[][] board = new char[5][5]; // 0 : 'S'       ,      1 : 'Y'
-    static int cnt = 0;
+    // totalVisited를 통해 재귀를 돌면서 탐색한 경우를 마킹하고, 인접한 여자들이 7명인지 확인해 인접했는지 파악할 수 있다.
     static boolean[] totalVisited = new boolean[25];
-    static int[] dx = {-1, 0, 1, 0};
-    static int[] dy = {0, -1, 0, 1};
-    
-    public static void main(String[] args) throws IOException{
-        // initialize
+    static int cnt;
+
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         for (int i = 0; i < 5; i++) {
             String temp = br.readLine();
@@ -20,24 +21,15 @@ class Main {
                 board[i][j] = temp.charAt(j);
             }
         }
-        // logic
-        comb(0, 0, 0);
-        // result
+
+        func(0, 0, 0);
         System.out.println(cnt);
     }
 
-    static void comb(int depth, int start, int yCnt) {
-        // 임도연파가 4명 이상이면 실패한 조합.
-        if (yCnt >= 4) {
-            return;
-        }
-
-        // 조합을 완성 시켰을 때
+    private static void func(int depth, int start, int yCnt) {
+        if (yCnt >= 4) return;
         if (depth == 7) {
-            int curIdx = start - 1;
-            int x = curIdx / 5;
-            int y = curIdx % 5;
-            if (bfs(x, y)) {
+            if (isNear(start - 1)) {
                 cnt++;
             }
             return;
@@ -46,40 +38,44 @@ class Main {
         for (int i = start; i < 25; i++) {
             totalVisited[i] = true;
 
-            if (board[i / 5][i % 5] == 'Y') {
-                comb(depth + 1, i + 1, yCnt + 1);
+            int x = i / 5;
+            int y = i % 5;
+            if (board[x][y] == 'Y') {
+                func(depth + 1, i + 1, yCnt + 1);
             } else {
-                comb(depth + 1, i + 1, yCnt);
+                func(depth + 1, i + 1, yCnt);
             }
-
             totalVisited[i] = false;
-            
         }
     }
 
-    static boolean bfs(int x, int y) {
-        Queue<int[]> queue = new LinkedList<>();
+    private static boolean isNear(int start) {
+        int x = start / 5;
+        int y = start % 5;
         boolean[][] visited = new boolean[5][5];
+        Queue<int[]> queue = new LinkedList<>();
+        queue.offer(new int[]{x, y});
         visited[x][y] = true;
-        
-        queue.offer(new int[] {x, y});
 
         int cntGirl = 1; // 연결된 여학생의 수
         while (!queue.isEmpty()) {
-            int[] cur = queue.poll();
+            int[] current = queue.poll();
+            x = current[0];
+            y = current[1];
             for (int i = 0; i < 4; i++) {
-                int nx = cur[0] + dx[i];
-                int ny = cur[1] + dy[i];
-                int nxt = nx * 5 + ny;
-                if (isValid(nx, ny) && !visited[nx][ny] && totalVisited[nxt]) {
+                int nx = x + dx[i];
+                int ny = y + dy[i];
+                int next = nx * 5 + ny;
+                if (isValid(nx, ny) && !visited[nx][ny] && totalVisited[next]) {
                     visited[nx][ny] = true;
-                    queue.offer(new int[] {nx, ny});
+                    queue.offer(new int[]{nx, ny});
                     cntGirl++;
                 }
             }
         }
         return cntGirl == 7;
     }
+
     static boolean isValid(int x, int y) {
         return x >= 0 && x < 5 && y >= 0 && y < 5;
     }
