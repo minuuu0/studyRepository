@@ -1,66 +1,52 @@
-import java.lang.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 
-class Main
-{
+public class Main {
 
-    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    static StringTokenizer st;
     static int n, m;
-    static int[][] board;
-    static int[][] board2;
-    static int mn = 0;
-    static List<Cctv> cctvList = new ArrayList<>();
-
-    static int[] dx = {-1, 0, 1, 0}; // 하 상 우 좌
+    static int[] dx = {1, 0, -1, 0};
     static int[] dy = {0, 1, 0, -1};
-
-
-    public static void main (String[] args) throws IOException
-    {
-        // 1. 모든 조합을 순회한다.
-        // 2. n, m을 순회하며 cctv를 만날 때마다 재귀 함수를 호출한다.
-        st = new StringTokenizer(br.readLine());
+    static int[][] board = new int[12][12];
+    static int[][] board2 = new int[12][12];
+    static List<CCTV> cctvList = new ArrayList<>();
+    static int min = 0;
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
-        board = new int[n][m];
-        board2 = new int[n][m];
 
         for (int i = 0; i < n; i++) {
             st = new StringTokenizer(br.readLine());
             for (int j = 0; j < m; j++) {
-                board2[i][j] = Integer.parseInt(st.nextToken());
-                if (board2[i][j] != 0 && board2[i][j] != 6) cctvList.add(new Cctv(i, j));
-                if (board2[i][j] == 0) mn++;
+                board[i][j] = Integer.parseInt(st.nextToken());
+                if (board[i][j] != 0 && board[i][j] != 6) {
+                    cctvList.add(new CCTV(i, j));
+                }
+                if (board[i][j] == 0) min++;
             }
         }
+        // 모든 CCTV 방향의 모든 경우의 수를 뽑는다. -> 4가지의 방향으로 CCTV최대 8개이기에 4^8의 경우의 수이니 시간복잡도도 문제없다.
+        // 모든 cctv에 대해 사각지대를 만들고 갱신한다 (NM) = 64 -> 6만 x 64 = 충분함
+        // 만약 CCTV의 개수가 3개라면 4^3 = 64가지인데 0 ~ 63의 수에서 4로 나머지 연산을 계속한다면 0,1,2,3 네가지 방향을 조절할 수 있다.
+        for (int i = 0; i < (1 << (cctvList.size() * 2)); i++) {
+            int brute = i;
 
-        solve();
-    }
-
-    static void solve() {
-
-        int comb = (int) Math.pow(4, cctvList.size());
-        for (int c = 0; c < comb; c++) {
-
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < m; j++) {
-                    board[i][j] = board2[i][j];
+            for (int j = 0; j < n; j++) {
+                for (int k = 0; k < m; k++) {
+                    board2[j][k] = board[j][k];
                 }
             }
 
-            // 모든 경우에 대해
-            int brute = c;
-            for (int i = 0; i < cctvList.size(); i++) {
-                int x = cctvList.get(i).x;
-                int y = cctvList.get(i).y;
-
-                // cctv의 방향 뽑기
+            for (int j = 0; j < cctvList.size(); j++) {
+                // 각 CCTV에 대해 방향마다 사각지대를 갱신하자 ex) 3개의 각 방향을 생성함
                 int dir = brute % 4;
                 brute /= 4;
-
-                // 하 상 우 좌
+                CCTV cctv = cctvList.get(j);
+                int x = cctv.x;
+                int y = cctv.y;
                 if (board[x][y] == 1) {
                     upd(x, y, dir);
                 } else if (board[x][y] == 2) {
@@ -80,45 +66,49 @@ class Main
                     upd(x, y, dir + 3);
                 }
             }
-            int val = 0;
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < m; j++) {
-                    if (board[i][j] == 0) {
-                        val++;
+
+            // 갱신
+            int temp = 0;
+            for (int j = 0; j < n; j++) {
+                for (int k = 0; k < m; k++) {
+                    if (board2[j][k] == 0) {
+                        temp++;
                     }
                 }
             }
-            mn = Math.min(mn, val);
+            min = Math.min(min, temp);
+
         }
-        System.out.println(mn);
+        System.out.println(min);
     }
 
     private static void upd(int x, int y, int dir) {
+        // 모든 board를 마킹하여 갱신하기
         dir %= 4;
+
         while (true) {
             x += dx[dir];
             y += dy[dir];
-            if (!OOB(x, y) || board[x][y] == 6) {
-                return;
+            if (!isValid(x, y) || board2[x][y] == 6) {
+                break;
             }
-            // cctv는 건너뛸 수 있다.
-            if (board[x][y] != 0) continue;
-            board[x][y] = 7;
-
+            board2[x][y] = 7;
         }
+
     }
 
-    private static boolean OOB(int x, int y) {
-        return x >= 0 && y >= 0 && x < n && y < m;
+    private static boolean isValid(int nx, int ny) {
+        return nx >= 0 && nx < n && ny >= 0 && ny < m;
     }
 
-    static class Cctv {
+    static class CCTV{
         int x;
         int y;
-
-        Cctv(int x, int y) {
+        CCTV(int x, int y) {
             this.x = x;
             this.y = y;
         }
     }
+    
+    
 }
