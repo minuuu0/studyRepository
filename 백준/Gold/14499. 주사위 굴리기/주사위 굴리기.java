@@ -3,118 +3,76 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+
 public class Main {
-
-    static int n, m, x, y, k;
-    static int[][] map;
-    static int[] row = new int[4];
-    static int[] col = new int[4];
-    static int[] dx = {0, 0, 0, -1, 1};
-    static int[] dy = {0, 1, -1, 0, 0}; // 1 : 동쪽 / 2 : 서쪽 / 3: 북쪽 / 4 : 남쪽
-
+    static int[] dice = new int[6];
+    static int[] dx = {0, 0, -1, 1};
+    static int[] dy = {1, -1, 0, 0};
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
         StringTokenizer st = new StringTokenizer(br.readLine());
-        n = Integer.parseInt(st.nextToken());
-        m = Integer.parseInt(st.nextToken());
-        x = Integer.parseInt(st.nextToken()) + 1;
-        y = Integer.parseInt(st.nextToken()) + 1;
-        k = Integer.parseInt(st.nextToken());
 
-        map = new int[n + 2][m + 2];
+        int N = Integer.parseInt(st.nextToken());
+        int M = Integer.parseInt(st.nextToken());
+        int x = Integer.parseInt(st.nextToken());
+        int y = Integer.parseInt(st.nextToken());
+        int K = Integer.parseInt(st.nextToken());
 
-        for (int i = 0; i < n + 2; i++) {
-            Arrays.fill(map[i], -1);
-        }
-
-        // 지도에 쓰여진 수 입력
-        // 1based
-        for (int i = 1; i <= n; i++) {
+        int[][] board = new int[N][M];
+        for (int i = 0; i < N; i++) {
             st = new StringTokenizer(br.readLine());
-            for (int j = 1; j <= m; j++) {
-                map[i][j] = Integer.parseInt(st.nextToken());
+            for (int j = 0; j < M; j++) {
+                board[i][j] = Integer.parseInt(st.nextToken());
             }
         }
 
-        // 방향 받기
         st = new StringTokenizer(br.readLine());
-        for (int i = 0; i < k; i++) { // 방향별로 이동 시작
+        for (int i = 0; i < K; i++) {
             int dir = Integer.parseInt(st.nextToken());
-            x += dx[dir];
-            y += dy[dir];
-
-            if (map[x][y] != -1) {
-                if (dir == 1 || dir == 2) { // 동쪽과 서쪽인 경우
-                    if (dir == 1) {
-                        int temp = row[0];
-                        for (int j = 0; j < 3; j++) { // 가로면의 순서를 섞음
-                            row[j] = row[j + 1];
-                        }
-                        row[3] = temp;
-                        col[1] = row[1];
-                        col[3] = row[3];
-                    } else { // 서쪽
-                        int temp = row[3];
-                        for (int j = 3; j > 0; j--) {
-                            row[j] = row[j - 1];
-                        }
-                        row[0] = temp;
-                        col[1] = row[1];
-                        col[3] = row[3];
-                    }
-                    rowPrint(x, y);
-                } else { // 북쪽과 남쪽인 경우
-                    if (dir == 3) {
-                        int temp = col[0];
-                        for (int j = 0; j < 3; j++) {
-                            col[j] = col[j + 1];
-                        }
-                        col[3] = temp;
-                        row[1] = col[1];
-                        row[3] = col[3];
-                    } else {
-                        int temp = col[3];
-                        for (int j = 3; j > 0; j--) {
-                            col[j] = col[j - 1];
-                        }
-                        col[0] = temp;
-                        row[1] = col[1];
-                        row[3] = col[3];
-                    }
-                    colPrint(x, y);
+            int nx = x + dx[dir - 1];
+            int ny = y + dy[dir - 1];
+//            System.out.println("nx : " + nx +" ny : " + ny);
+            if (nx >= 0 && nx < N && ny >= 0 && ny < M) {
+                x = nx;
+                y = ny;
+                roll(dir);
+                if (board[nx][ny] == 0) {
+                    board[nx][ny] = dice[3];
+                } else {
+                    dice[3] = board[nx][ny];
+                    board[nx][ny] = 0;
                 }
-            } else {
-                x -= dx[dir]; // 넘었으면 되돌아감
-                y -= dy[dir];
+                System.out.println(dice[0]);
+
             }
         }
 
     }
 
-    private static void colPrint(int i, int j) {
-        if (map[i][j] == 0) {
-            map[i][j] = col[1];
-            row[1] = col[1];
+    private static void roll(int dir) {
+        int temp0 = dice[0], temp1 = dice[1], temp2 = dice[2];
+        int temp3 = dice[3], temp4 = dice[4], temp5 = dice[5];
+
+        if (dir == 1) {
+            dice[0] = temp1; dice[1] = temp3; dice[2] = temp0;
+            dice[3] = temp2; dice[4] = temp4; dice[5] = temp5;
+        } else if (dir == 2) {
+            dice[0] = temp2; dice[1] = temp0; dice[2] = temp3;
+            dice[3] = temp1; dice[4] = temp4; dice[5] = temp5;
+        } else if (dir == 3) {
+            dice[0] = temp4; dice[1] = temp1; dice[2] = temp2;
+            dice[3] = temp5; dice[4] = temp3; dice[5] = temp0;
         } else {
-            col[1] = map[i][j];
-            row[1] = col[1];
-            map[i][j] = 0;
+            dice[0] = temp5; dice[1] = temp1; dice[2] = temp2;
+            dice[3] = temp4; dice[4] = temp0; dice[5] = temp3;
         }
-        System.out.println(col[3]);
-    }
-
-    private static void rowPrint(int i, int j) {
-        if (map[i][j] == 0) { // 지도의 해당 칸이 비어있으면 바닥면의 숫자를 지도에 복사
-            map[i][j] = row[1]; // 바닥면 복사
-            col[1] = row[1];
-        } else {    // 비어 있지 않다면 칸의 수가 바닥면으로 복사 후 칸은 0으로
-            row[1] = map[i][j];
-            col[1] = row[1];
-            map[i][j] = 0;
+        /*
+        System.out.println();
+        System.out.println("주사위 결과");
+        for (int i = 0; i < 6; i++) {
+            System.out.print(dice[i] + " ");
         }
-        System.out.println(row[3]);
+        System.out.println();*/
     }
-
 
 }
